@@ -1,0 +1,170 @@
+{ "data": [
+        {
+            "name": "Hugo Boss",
+            "rewards": [
+                {"title":"Treat Yourself To 20% Off Any One Item","level":1,"points":50,"description":""},
+                {"title":"Accessorize In Style And Receive A Pair Of Cufflinks","level":2,"points":85,"description":""},
+                {"title":"Sharing Is Caring - Receive A \u00a325 Gift Card","level":3,"points":100,"description":""},
+                {"title":"Shop \u2018Til You Drop! \u00a3100 Gift Card","level":4,"points":250,"description":""}
+            ],
+            "subtitle": "Boss Orange is a fashion retail store selling originally quirky styling denim based casual wear. This Hugo Boss line currently counts 7 stores in London."
+        },
+        {
+            "name": "The Body Shop",
+            "rewards": [
+                {"title":"Free Absinthe Purifying Hand Wash","level":1,"points":25,"description":""},
+                {"title":"Score! 10\u00a3 Gift Card","level":2,"points":50,"description":""},
+                {"title":"Free Chocomania Body Butter","level":3,"points":75,"description":""},
+                {"title":"Score! 20\u00a3 Gift Card","level":4,"points":100,"description":""},
+                {"title":"Free Almond Hand & Nail Cream","level":5,"points":125,"description":""},
+                {"title":"Score! 30\u00a3 Gift Card","level":6,"points":150,"description":""}
+            ],
+            "subtitle": "The Body Shop offers over 900 natural beauty products. Shop for natural skin care, make-up, body butter, aromatherapy, hair care, and all your bath and body essentials."
+
+        },
+        {
+            "name": "Vans",
+            "rewards": [
+                {"title":"Become A Vans Hero","level":1,"points":50,"description":""},
+                {"title":"Snatch A \u201cOff The Wall\u201d Poster From Anthony Van Engelen Riding The Wall In San Fransico","level":2,"points":100,"description":""},
+                {"title":"Enjoy 25% Discount When You Spend Over 40 Smackers","level":3,"points":150,"description":""},
+                {"title":"Turn Yourself Into A Hipster With A Free Pair Of Spicoli 4\u2019s Shades","level":4,"points":250,"description":""},
+                {"title":"Grab An Exclusive VIP Backstage Ticket For Bowl-A-Rama","level":5,"points":500,"description":""}
+            ],
+            "subtitle": "Vans was the first company ever to create shoes for skateboarding, way back in 1966. Today it sells a variety of products including shoes, t-shirts, hoodies, socks, watches, iPhone cases, hats, beanies, and backpacks."
+        },
+        {
+            "name": "Oilily",
+            "rewards": [
+                {"title":"Free Lip Balm - Choose Your Flavour: Melon, Vanilla, Roses Or Strawberry","level":1,"points":25,"description":""},
+                {"title":"Score! 10\u00a3 Gift Card","level":2,"points":50,"description":""},
+                {"title":"Accessorize In Style And Receive A Pair Of Earrings","level":3,"points":75,"description":""},
+                {"title":"Score! 20\u00a3 Gift Card","level":4,"points":100,"description":""},
+                {"title":"Choose A Scarf For Free","level":5,"points":125,"description":""},
+                {"title":"Score! 30\u00a3 Gift Card","level":6,"points":150,"description":""}
+            ],
+            "subtitle": "Oilily is a premium fashion label focused on creative, independent women. It offers consumers some of the hippest must-have clothing, footwear and accessories of today."
+        },
+        {
+            "name": "Armani",
+            "rewards": [
+                {"title":"Treat Yourself To 20% Off Any One Item","level":1,"points":50,"description":""},
+                {"title":"Accessorize In Style And Receive A Pair Of Cufflinks","level":2,"points":85,"description":""},
+                {"title":"Sharing Is Caring - Receive A \u00a315 Gift Card","level":3,"points":100,"description":""},
+                {"title":"Shop \u2018Til You Drop! \u00a3100 Gift Card","level":4,"points":250,"description":""}
+            ],
+            "subtitle": "Armani Jeans is a bridge-line collection of denim-related clothing created by Giorgio Armani. The colors used are more diverse than those found in his higher end lines."
+        },
+        {
+            "name": "Lacoste",
+            "rewards": [
+                {"title":"Treat Yourself To 20% Off Any One Item","level":1,"points":50,"description":""},
+                {"title":"Accessorize In Style And Receive A Pair Of Cufflinks","level":2,"points":85,"description":""},
+                {"title":"Sharing Is Caring - Receive A \u00a325 Gift Card","level":3,"points":100,"description":""},
+                {"title":"Shop \u2018Til You Drop! \u00a3100 Gift Card","level":4,"points":250,"description":""}
+            ],
+            "subtitle": "Lacoste is a French apparel company that sells high-end clothing, footwear, perfume, leather goods, watches, eyewear, and most famously tennis shirts."
+        },
+        {
+            "name": "Replay",
+            "rewards": [
+                {"title":"Receive A Free Accessory Of Your Choice (Up To \u00a312 Value)","level":1,"points":30,"description":""},
+                {"title":"Grab A Free Pair Of Jeans","level":2,"points":65,"description":""},
+                {"title":"Enjoy A \u00a325 Gift Card","level":3,"points":150,"description":""},
+                {"title":"Enjoy A \u00a350 Gift Card","level":4,"points":200,"description":""}
+            ],
+            "subtitle": "Replay is a Italian denim and smart casualwear brand that brings an authentic and contemporary style. Replay also produces designer clothing and accessories for men, women and children of all age groups."
+        },
+        {
+            "name": "Pull and Bear",
+            "rewards": [
+                {"title":"Grab A Free Phyllys & Buddy Tee","level":1,"points":35,"description":""},
+                {"title":"Receive A Free Accessory Of Your Choice (Up To \u00a312 Value)","level":2,"points":65,"description":""},
+                {"title":"Buy One Jeans And Get An Extra Pair For Free","level":3,"points":90,"description":""},
+                {"title":"Enjoy A \u00a325 Gift Card","level":4,"points":150,"description":""},
+                {"title":"Enjoy A \u00a350 Gift Card","level":5,"points":200,"description":""},
+                {"title":"Get A Jump Start On Your Winter Wardrobe - \u00a3100 Shopping Spree","level":6,"points":350,"description":""}
+            ],
+            "subtitle": "Pull & Bear is a Spanish clothing and accessories retailer. It focuses on casual, laid-back clothing and accessories for young people with a very urban style, at accessible prices."
+        },
+        {
+            "name": "Le Pain Quotidien",
+            "rewards": [
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":1,"points":15,"description":""},
+                {"title":"Free Cookie Or Brownie","level":2,"points":35,"description":""},
+                {"title":"Free Medium Coffee Or Soda","level":3,"points":50,"description":""},
+                {"title":"Cool Off With A Free Iced Coffee","level":4,"points":75,"description":""},
+                {"title":"Team Up - Grab A Large Coffee With A Beigel For Free","level":5,"points":100,"description":""},
+                {"title":"Become Famous! Name A Coffee After Yourself For 1 Month","level":6,"points":250,"description":""}
+            ],
+            "subtitle": "Le Pain Quotidien is an international chain with over 50 bakery shops in London. It sells organic bread and cakes in a homey, rustic style."
+        },
+        {
+            "name": "Costa",
+            "rewards": [
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":1,"points":15,"description":""},
+                {"title":"Free Cookie Or Brownie","level":2,"points":35,"description":""},
+                {"title":"Free Medium Coffee Or Soda","level":3,"points":50,"description":""},
+                {"title":"Cool Off With A Free Iced Coffee","level":4,"points":75,"description":""},
+                {"title":"Team Up - Grab A Large Coffee With A Croissant For Free","level":5,"points":100,"description":""},
+                {"title":"Become Famous! Name A Coffee After Yourself For 1 Month","level":6,"points":250,"description":""}
+            ],
+            "subtitle": "Costa Coffee is a British multinational coffeehouse. It is the second largest coffeehouse chain in the world behind Starbucks and the largest in the United Kingdom."
+        },
+        {
+            "name": "Banana Republic",
+            "rewards": [
+                {"title":"Get A Jump Start On Your Summer Wardrobe - Choose A Bikini Or Swimming Shorts","level":1,"points":45,"description":""},
+                {"title":"Receive A Free Accessory Of Your Choice (Up To \u00a315 Value)","level":2,"points":85,"description":""},
+                {"title":"Buy One Skirt Or Shirt And Get One For Free","level":3,"points":125,"description":""},
+                {"title":"Enjoy A \u00a325 Gift Card","level":4,"points":200,"description":""},
+                {"title":"Enjoy A \u00a350 Gift Card","level":5,"points":350,"description":""}
+            ],
+            "subtitle": "Banana Republic is a luxury clothing retailer owned by Gap Inc. They currently have 6 stores in London."
+        },
+        {
+            "name": "Nandos",
+            "rewards": [
+                {"title":"High Five","level":1,"points":5,"description":""},
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":2,"points":15,"description":""},
+                {"title":"6 Free Chicken Wings","level":3,"points":25,"description":""},
+                {"title":"Half Chicken With Soda","level":4,"points":45,"description":""},
+                {"title":"Invite Some Friends And Share A Family Size Meal For Free (6p)","level":5,"points":75,"description":""}
+            ],
+            "subtitle": "Nando's is a South African casual dining restaurant with a Portuguese / Mozambiquan theme. Nando's specializes in chicken dishes with either lemon and herb, medium, hot, extra hot or extra extra hot Peri-Peri marinades."
+        },
+        {
+            "name": "Zizzi",
+            "rewards": [
+                {"title":"High Five","level":1,"points":5,"description":""},
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":2,"points":15,"description":""},
+                {"title":"1 Main Free","level":3,"points":35,"description":""},
+                {"title":"1 Half Price Bottle Of Wine","level":4,"points":55,"description":""},
+                {"title":"Invite Some Friends And Share A Family Size Meal For Free (6p)","level":5,"points":75,"description":""}
+            ],
+            "subtitle": "Only the freshest local ingredients for the very best local, affordable Italian food. Each restaurant is a little bit different with a distinctly local feel, thanks to our Fresh talent"
+        },
+        {
+            "name": "Leto Caffe",
+            "rewards": [
+                {"title":"High Five","level":1,"points":5,"description":""},
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":2,"points":15,"description":""},
+                {"title":"1 Free Coffee","level":3,"points":25,"description":""},
+                {"title":"Cake and Coffee","level":4,"points":45,"description":""},
+                {"title":"Invite Some Friends And Share A Round Of 6 Coffees","level":5,"points":75,"description":""}
+            ],
+            "subtitle": "Nando's is a South African casual dining restaurant with a Portuguese / Mozambiquan theme. Nando's specializes in chicken dishes with either lemon and herb, medium, hot, extra hot or extra extra hot Peri-Peri marinades."
+        },
+        {
+            "name": "Joe and Co",
+            "rewards": [
+                {"title":"High Five","level":1,"points":5,"description":""},
+                {"title":"Double Handed High Five Or First Bump (Your Choice)","level":2,"points":15,"description":""},
+                {"title":"6 Free Chicken Wings","level":3,"points":25,"description":""},
+                {"title":"Half Chicken With Soda","level":4,"points":45,"description":""},
+                {"title":"Invite Some Friends And Share A Family Size Meal For Free (6p)","level":5,"points":75,"description":""}
+            ],
+            "subtitle": "Nando's is a South African casual dining restaurant with a Portuguese / Mozambiquan theme. Nando's specializes in chicken dishes with either lemon and herb, medium, hot, extra hot or extra extra hot Peri-Peri marinades."
+        }
+    ]
+}

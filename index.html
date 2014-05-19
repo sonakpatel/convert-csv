@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.2.7.min.js"></script>
+    <script src="js/convert.js" ></script>
+    <script>
+        $(document).ready(function(){
+            document.getElementById('the_form').addEventListener('submit', handleFileSelect, false);
+
+            $("#parse-users").click(function() {
+                console.log("pushing users!!");
+                signUpUserParse();
+            });
+
+            $("#parse-cards").click(function() {
+                console.log("pushing cards!!");
+                createCards();
+            });
+
+                $("#download").click(function() {
+                    var json = $("#json").val();
+                    //var json = CSV2JSON(csv);
+                    window.open("data:text/json;charset=utf-8," + escape(json))
+                });
+            });
+    </script>
+</head>
+<body class="container">
+<hr />
+<div class="row">
+    <div class="span4">
+<h3>Upload CSV:</h3>
+
+<form action="javascript:void(0);" id="the_form" class="">
+    <input type="file" id="csv" required="required" accept=".csv">
+    <button type="submit" value="Go" class="btn btn-primary">Process</button>
+</form>
+    </div>
+
+<script type="text/javascript">
+
+    function fileInfo(e){
+        var file = e.target.files[0];
+        if (file.name.split(".")[1].toUpperCase() != "CSV"){
+            alert('Invalid csv file !');
+            e.target.parentNode.reset();
+            return;
+        }else{
+            document.getElementById('file_info').innerHTML = "<p>File Name: "+file.name + " | "+file.size+" Bytes.</p>";
+        }
+    }
+    function handleFileSelect(){
+        var file = document.getElementById("csv").files[0];
+        var reader = new FileReader();
+        reader.readAsText(file);
+        var link_reg = /(http:\/\/|https:\/\/)/i;
+
+        reader.onload = function(file) {
+            var json = CSV2JSON(file.target.result);
+            $("#json").val(json);
+        }
+    }
+
+</script>
+           <div class="row">
+    <div class="span8">
+<br />
+&nbsp;&nbsp;
+        <div class="span5">
+            <textarea type="text" id="json" class="text"></textarea>
+        </div>
+        <div class="span5">
+            <div class="btn-group">
+                <button class="btn " id="download">Download JSON</button>
+                <button class="btn btn-primary" id="parse-users">Push Users to Parse</button>
+                <button class="btn btn-primary" id="parse-cards">Push Cards to Parse</button>
+            </div>
+        </div>
+        <div class="span4">
+        <h5>Account type:</h5>
+        <label class="checkbox inline">
+            <input type="checkbox" id="account-master" value="option1"> master
+        </label>
+        <label class="checkbox inline">
+            <input type="checkbox" id="account-admin" value="option2"> admin
+        </label>
+        <label class="checkbox inline">
+            <input type="checkbox" id="account-staff" value="option3"> staff
+        </label>
+        <label class="checkbox inline">
+            <input type="checkbox" id="account-user" value="option3"> user
+        </label>
+        </div>
+    </div>
+           </div>
+<script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>
